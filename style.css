@@ -6,4 +6,26 @@
 
 body {
     background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.cabecalho {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    background-color: #6482AD;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.cabecalho p:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+    transition: text-decoration 1s;
 }
