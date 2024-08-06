@@ -24,10 +24,15 @@ body {
     padding: 12px;
 }
 
+.cabecalho p {
+    transition: color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
 .cabecalho p:hover {
     text-decoration-line: underline;
     cursor: pointer;
-    transition: text-decoration 1s;
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 #3B5B6E
 }
 
 .boasVindas {
@@ -40,9 +45,9 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: linear-gradient(45deg, yellow, red, blue);
+    background: linear-gradient(45deg, #B9D8C2 0%, #B0BEC5 50%, #A9C4D6 100%);
     background-size: 200% 200%;
-    animation: gradienteMovendo 10s linear infinite;
+    animation: gradienteMovendo 2s linear infinite;
     text-align: center;
 }
 
