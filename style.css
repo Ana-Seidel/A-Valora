@@ -137,3 +137,55 @@ h1, h2, p, small {
     margin: 0;
     padding: 5px 0;
 }
+
+.containerAssessoria {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #6482AD;
+    padding: 20px;
+    text-align: center;
+}
+
+.titleAssesoria {
+    font-size: 2em;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.gestaoEstrategiaContainer {
+    display: flex;
+    gap: 20px; /* Espaço entre os blocos */
+    justify-content: center; /* Alinha os blocos ao centro */
+    flex-wrap: wrap; /* Permite que os itens se movam para baixo em telas menores */
+    max-width: 1200px; /* Largura máxima do container */
+    margin: 0 auto; /* Centraliza o container */
+}
+
+.gestaoEstratategia, .tecnologiaSiderurgica {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.gestaoEstratategia {
+    flex: 2; /* Maior proporção em relação ao bloco ao lado */
+}
+
+.tecnologiaSiderurgica {
+    flex: 1; /* Menor proporção em relação ao bloco ao lado */
+}
+
+.gestaoEstratategia h1,
+.gestaoEstratategia h2,
+.gestaoEstratategia h3,
+.tecnologiaSiderurgica h2,
+.tecnologiaSiderurgica h3 {
+    margin: 0 0 10px 0;
+}
+
+.gestaoEstratategia p,
+.tecnologiaSiderurgica p {
+    margin: 0;
+}
