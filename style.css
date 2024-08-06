@@ -67,3 +67,48 @@ h1, h2 {
     margin: 0;
     padding: 0;
 }
+
+.sobreEmpresa {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #6482AD;
+    text-align: center;
+    padding: 20px;
+}
+
+#about {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.infoSections {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+.objetivoSection, .missaoSection, .visaoSection {
+    max-width: 250px;
+    text-align: left;
+}
+
+.infoSections h2, .infoSections p, .visaoSection h2, .visaoSection p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.visaoSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+.visaoSection h2, .visaoSection p {
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+}
