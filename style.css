@@ -157,11 +157,11 @@ h1, h2, p, small {
 
 .gestaoEstrategiaContainer {
     display: flex;
-    gap: 20px; /* Espaço entre os blocos */
-    justify-content: center; /* Alinha os blocos ao centro */
-    flex-wrap: wrap; /* Permite que os itens se movam para baixo em telas menores */
-    max-width: 1200px; /* Largura máxima do container */
-    margin: 0 auto; /* Centraliza o container */
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .gestaoEstratategia, .tecnologiaSiderurgica {
@@ -170,11 +170,11 @@ h1, h2, p, small {
 }
 
 .gestaoEstratategia {
-    flex: 2; /* Maior proporção em relação ao bloco ao lado */
+    flex: 2;
 }
 
 .tecnologiaSiderurgica {
-    flex: 1; /* Menor proporção em relação ao bloco ao lado */
+    flex: 1;
 }
 
 .gestaoEstratategia h1,
@@ -188,4 +188,50 @@ h1, h2, p, small {
 .gestaoEstratategia p,
 .tecnologiaSiderurgica p {
     margin: 0;
+}
+
+.containerMap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, #B9D8C2 0%, #B0BEC5 50%, #A9C4D6 100%);
+    position: relative;
+}
+
+.containerMap p {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: auto;
+    max-width: 90%;
+}
+
+.containerMap iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+footer {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    gap: 2rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(45deg, #B9D8C2 0%, #B0BEC5 50%, #A9C4D6 100%);
 }
