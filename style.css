@@ -73,7 +73,7 @@ h1, h2 {
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 300;
     font-style: normal;
-    background-color: #6482AD;
+    background: linear-gradient(45deg, #B9D8C2 0%, #B0BEC5 50%, #A9C4D6 100%);
     text-align: center;
     padding: 20px;
     height: 100vh;
@@ -164,9 +164,11 @@ h1, h2, p, small {
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 300;
     font-style: normal;
-    background-color: #6482AD;
+    background: linear-gradient(45deg, #B9D8C2 0%, #B0BEC5 50%, #A9C4D6 100%);
     padding: 20px;
     text-align: center;
+    height: 100vh;
+    width: 100%;
 }
 
 .titleAssesoria {
