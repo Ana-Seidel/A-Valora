@@ -49,6 +49,7 @@ body {
     background-size: 200% 200%;
     animation: gradienteMovendo 2s linear infinite;
     text-align: center;
+    font-size: 26px;
 }
 
 @keyframes gradienteMovendo {
@@ -75,6 +76,8 @@ h1, h2 {
     background-color: #6482AD;
     text-align: center;
     padding: 20px;
+    height: 100vh;
+    width: 100%;
 }
 
 #about {
@@ -117,7 +120,9 @@ h1, h2 {
     background: linear-gradient(45deg, #B9D8C2 0%, #B0BEC5 50%, #A9C4D6 100%);
     background-size: 200% 200%;
     padding: 80px 20px;
-    position: relative; /* Adiciona posição relativa para o posicionamento absoluto do título */
+    position: relative;
+    height: 100vh;
+    width: 100%;
 }
 
 .titleProdutos {
