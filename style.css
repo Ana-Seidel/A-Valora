@@ -218,23 +218,19 @@ h1, h2, p, small {
 
 .containerMap {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 100vh;
     padding: 20px;
     box-sizing: border-box;
     background: linear-gradient(45deg, #B9D8C2 0%, #B0BEC5 50%, #A9C4D6 100%);
-    position: relative;
 }
 
 .titleContato {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
     text-align: center;
-    width: 90%;
-    z-index: 10;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
 }
 
 .titleContato p {
@@ -242,13 +238,12 @@ h1, h2, p, small {
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
-    margin: 0;
-    padding: 5px;
+    margin: 10px 0;
 }
 
 #adress {
     font-size: 16px;
-    margin-top: 470px;
+    margin-top: 10px;
 }
 
 .containerMap iframe {
@@ -259,7 +254,6 @@ h1, h2, p, small {
     border: 2px solid #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     outline: none;
-    position: relative;
 }
 
 footer {
