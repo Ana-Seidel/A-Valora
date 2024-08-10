@@ -22,6 +22,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 12px;
+    border: 1px solid black;
 }
 
 .cabecalho a {
@@ -39,7 +40,7 @@ body {
 
 .boasVindas {
     font-family: "Be Vietnam Pro", sans-serif;
-    font-weight: 300;
+    font-weight: 450;
     font-style: normal;
     display: flex;
     flex-direction: column;
@@ -73,18 +74,22 @@ h1, h2 {
 
 .sobreEmpresa {
     font-family: "Be Vietnam Pro", sans-serif;
-    font-weight: 300;
+    font-weight: 450;
     font-style: normal;
     background: linear-gradient(45deg, #B9D8C2 0%, #B0BEC5 50%, #A9C4D6 100%);
     text-align: center;
     padding: 20px;
     height: 100vh;
     width: 100%;
+    box-sizing: border-box;
 }
 
 #about {
     font-size: 2em;
     margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    border-radius: 20px;
 }
 
 .infoSections {
@@ -96,7 +101,7 @@ h1, h2 {
 
 .objetivoSection, .missaoSection, .visaoSection {
     max-width: 250px;
-    text-align: left;
+    text-align: center;
 }
 
 .infoSections h2, .infoSections p, .visaoSection h2, .visaoSection p {
@@ -118,57 +123,107 @@ h1, h2 {
     padding: 5px 0;
 }
 
-.produtos {
-    background: linear-gradient(45deg, #B9D8C2 0%, #B0BEC5 50%, #A9C4D6 100%);
-    background-size: 200% 200%;
-    padding: 80px 20px;
+.infoSections p, .visaoSection p, .missaoSection p {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    padding: 1rem 10px;
+    border-radius: 20px;
+}
+
+.imagemContainer {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid black;
+}
+
+img {
+    border-radius: 20px;
+    max-width: 80%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin-left: auto;
+    margin-right: 2rem;
     position: relative;
-    height: 100vh;
-    width: 100%;
+    top: -250px;
+}
+
+.produtos {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #B9D8C2 0%, #B0BEC5 50%, #A9C4D6 100%);
 }
 
 .titleProdutos {
+    font-size: 2rem;
+    margin-bottom: 20px;
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 600;
     font-style: normal;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-    width: auto;
-    max-width: 90%;
+    font-size: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.fluidexA, .fluidexAV3 {
     font-family: "Be Vietnam Pro", sans-serif;
-    font-weight: 300;
+    font-weight: 450;
     font-style: normal;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    text-align: center;
-}
-
-.product-item {
-    max-width: 400px;
-}
-
-h1, h2, p, small {
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    flex: 1 1 45%;
+    max-width: 45%;
+    padding: 20px;
     margin: 0;
-    padding: 5px 0;
+}
+
+.fluidexS2 {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 20px;
+}
+
+.text-content {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.OBS {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 450;
+    font-style: normal;
 }
 
 .containerAssessoria {
     font-family: "Be Vietnam Pro", sans-serif;
-    font-weight: 300;
+    font-weight: 450;
     font-style: normal;
     background: linear-gradient(45deg, #B9D8C2 0%, #B0BEC5 50%, #A9C4D6 100%);
     padding: 20px;
     text-align: center;
+    box-sizing: border-box;
     height: 100vh;
     width: 100%;
 }
@@ -178,6 +233,10 @@ h1, h2, p, small {
     margin-bottom: 20px;
     position: relative;
     z-index: 1;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -214,6 +273,11 @@ h1, h2, p, small {
 .gestaoEstratategia p,
 .tecnologiaSiderurgica p {
     margin: 0;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
 }
 
 .containerMap {
@@ -250,10 +314,9 @@ h1, h2, p, small {
     width: 100%;
     max-width: 800px;
     height: 450px;
-    border-radius: 10px;
-    border: 2px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
     outline: none;
+    padding: 40px;
 }
 
 .contato {
@@ -261,7 +324,12 @@ h1, h2, p, small {
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 600;
     font-size: 16px;
-    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    gap: 2rem;
+    margin-bottom: 40px;
 }
 
 .contato .email-container {
