@@ -224,8 +224,8 @@ img {
     padding: 20px;
     text-align: center;
     box-sizing: border-box;
-    height: 100vh;
     width: 100%;
+    min-height: 100vh;
 }
 
 .titleAssesoria {
@@ -399,17 +399,90 @@ footer {
     filter: blur(0);
 }
 
-/* Responsividade */
-@media (min-width: 768px) {
-    main {
-        flex-direction: row;
-    }
-    
-    .content {
-        margin-right: 20px;
+/*Ajuste layout para todos os tipos de tela*/
+@media (max-width: 768px) {
+    .cabecalho {
+        align-items: flex-start;
+        padding: 10px;
     }
 
-    .sidebar {
-        flex: 0 0 250px;
+    .boasVindas {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .sobreEmpresa {
+        padding: 10px;
+        height: auto; /* Ajuste a altura para caber o conteúdo */
+    }
+
+    .infoSections {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .infoSections div {
+        max-width: 100%;
+    }
+
+    .imagemContainer {
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    img {
+        padding: 2rem;
+        max-width: 100%;
+        margin: 0;
+        top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .titleProdutos {
+        font-size: 1.5rem;
+    }
+
+    .products {
+        flex-direction: column;
+        align-items: center;
+        height: auto; /* Ajusta a altura para caber o conteúdo */
+    }
+
+    .fluidexA, .fluidexAV3, .fluidexS2 {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .OBS {
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerAssessoria {
+        padding: 10px; /* Reduza o padding para melhor ajuste em telas pequenas */
+    }
+
+    .titleAssesoria {
+        font-size: 1.5em;
+    }
+
+    .gestaoEstrategiaContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gestaoEstratategia, .tecnologiaSiderurgica {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
     }
 }
