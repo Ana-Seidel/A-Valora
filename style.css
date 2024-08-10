@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Minha Fonte';
+    src: url('fonts/Bauhaus\ 93\ Regular.ttf'),
+         url('fonts/BAUHS93.ttf');
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -45,35 +51,29 @@ body {
 }
 
 .boasVindas {
-    font-family: "Be Vietnam Pro", sans-serif;
-    font-weight: 450;
-    font-style: normal;
+    font-family: "Bauhaus 93 Regular", Minha Fonte;
     display: flex;
     flex-direction: column;
-    gap: 4rem;
     align-items: center;
     justify-content: center;
     height: 100vh;
     background: linear-gradient(45deg, #B9D8C2 0%, #B0BEC5 50%, #A9C4D6 100%);
     background-size: 200% 200%;
-    animation: gradienteMovendo 2s linear infinite;
     text-align: center;
     font-size: 26px;
 }
 
-@keyframes gradienteMovendo {
-    0% {
-        background-position: 0% 0%;
-    }
-    50% {
-        background-position: 100% 100%;
-    }
-    100% {
-        background-position: 0% 0%;
-    }
+#titleInicio {
+    color: #1679AB;
 }
 
-h1, h2 {
+.textoBoasVindas {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+}
+
+h1 {
     margin: 0;
     padding: 0;
 }
