@@ -17,11 +17,12 @@ body {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    font-size: 20px;
     display: flex;
     background-color: #6482AD;
     align-items: center;
     justify-content: space-between;
-    padding: 12px;
+    padding: 18px;
     border: 1px solid black;
 }
 
@@ -36,6 +37,11 @@ body {
     cursor: pointer;
     color: #fff;
     box-shadow: inset 200px 0 0 0 #3B5B6E
+}
+
+.cabecalho a.active {
+    text-decoration: underline;
+    color: black;
 }
 
 .boasVindas {
@@ -90,6 +96,19 @@ h1, h2 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     border: 1px solid black;
     border-radius: 20px;
+    padding: 10px;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 8rem 1rem;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
 }
 
 .infoSections {
@@ -138,16 +157,12 @@ h1, h2 {
 
 img {
     border-radius: 20px;
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     display: block;
-    margin-left: auto;
-    margin-right: 2rem;
-    position: relative;
-    top: -250px;
 }
 
 .produtos {
@@ -178,7 +193,7 @@ img {
     height: 100vh;
 }
 
-.fluidexA, .fluidexAV3 {
+.fluidexA, .fluidexAV3, .fluidexS2 {
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 450;
     font-style: normal;
@@ -192,17 +207,6 @@ img {
     margin: 0;
 }
 
-.fluidexS2 {
-    font-family: "Be Vietnam Pro", sans-serif;
-    font-weight: 450;
-    font-style: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding: 20px;
-}
-
 .text-content {
     border: 1px solid black;
     border-radius: 20px;
@@ -214,6 +218,7 @@ img {
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 450;
     font-style: normal;
+    padding: 2rem;
 }
 
 .containerAssessoria {
@@ -341,7 +346,7 @@ img {
 .contato ion-icon {
     font-size: 28px;
     color: black;
-    margin-right: 2rem;
+    margin-right: 5px;
     vertical-align: middle;
 }
 
