@@ -17,7 +17,7 @@
 ⤷ Cabeçalho: Links para Início, A Empresa, Produtos, Assessoria e Contato.<br><br>
 ⤷ Boas-Vindas: Introdução e mensagem de boas-vindas.<br><br>
 ⤷ Sobre a Empresa: Informações sobre objetivo, missão e visão.<br><br>
-⤷ Produtos: Detalhes sobre produtos como Fluidex-A-V e Ferrox-A-V.<br><br>
+⤷ Produtos: Detalhes sobre produtos usados.<br><br>
 ⤷ Assessoria: Serviços de gestão, estratégia e tecnologia siderúrgica.<br><br>
 ⤷ Mapa: Localização da empresa.<br><br>
 ⤷ Rodapé: Direitos autorais.
@@ -35,7 +35,7 @@
 <br>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-%23FFD97D?style=for-the-badge&logoColor=white&logo=github" alt="Status">
+    <img src="https://img.shields.io/badge/Status-Concluído-%231AFFD5?style=for-the-badge&logoColor=white&logo=github" alt="Status">
 </p>
 
 
