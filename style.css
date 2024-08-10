@@ -398,3 +398,18 @@ footer {
     opacity: 0;
     filter: blur(0);
 }
+
+/* Responsividade */
+@media (min-width: 768px) {
+    main {
+        flex-direction: row;
+    }
+    
+    .content {
+        margin-right: 20px;
+    }
+
+    .sidebar {
+        flex: 0 0 250px;
+    }
+}
