@@ -495,7 +495,7 @@ footer {
     }
 }
 
-/* Nova consulta de mídia para telas 16:9 */
+/* Telas 16:9 */
 @media only screen and (aspect-ratio: 16/9) {
     .contentContainer {
         display: flex;
@@ -515,20 +515,19 @@ footer {
     .infoSections .objetivoSection,
     .infoSections .missaoSection,
     .infoSections .visaoSection {
-        width: 30%; /* Ajusta as seções para se ajustarem lado a lado */
+        width: 30%;
         margin: 0 10px;
-        box-sizing: border-box; /* Inclui padding e bordas no width */
+        box-sizing: border-box;
     }
     
     .imagemContainer {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50%; /* Ajuste conforme necessário */
-        height: auto; /* Ajuste a altura conforme o conteúdo */
+        width: 50%;
+        height: auto;
     }
     
-    /* Ajuste o tamanho do texto e a margem para telas largas */
     .contentContainer p {
         font-size: 1.2em;
         margin-bottom: 10px;
