@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Minha Fonte';
-    src: url('fonts/Bauhaus\ 93\ Regular.ttf'),
-         url('fonts/BAUHS93.ttf');
+    src: url('Bauhaus\ 93\ Regular.ttf'),
+         url('BAUHS93.ttf');
 }
 
 * {
@@ -10,12 +10,13 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: white;
+body, html {
+    background: linear-gradient(45deg, #B9D8C2 0%, #B0BEC5 50%, #A9C4D6 100%);
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     margin: 0;
+    padding: 0;
 }
 
 .cabecalho {
@@ -457,7 +458,7 @@ footer {
     .products {
         flex-direction: column;
         align-items: center;
-        height: auto; /* Ajusta a altura para caber o conteúdo */
+        min-height: 100vh;
     }
 
     .fluidexA, .fluidexAV3, .fluidexS2 {
@@ -471,23 +472,65 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
-    .containerAssessoria {
-        padding: 10px; /* Reduza o padding para melhor ajuste em telas pequenas */
+/* Consulta de mídia existente para telas pequenas */
+@media only screen and (max-width: 768px) {
+    .contentContainer {
+        flex-direction: column;
     }
-
-    .titleAssesoria {
-        font-size: 1.5em;
-    }
-
-    .gestaoEstrategiaContainer {
+    
+    .infoSections {
         flex-direction: column;
         align-items: center;
     }
-
-    .gestaoEstratategia, .tecnologiaSiderurgica {
-        flex: 1 1 100%;
+    
+    .infoSections .objetivoSection,
+    .infoSections .missaoSection,
+    .infoSections .visaoSection {
         max-width: 100%;
         margin-bottom: 20px;
+    }
+    
+    .imagemContainer {
+        justify-content: center;
+    }
+}
+
+/* Nova consulta de mídia para telas 16:9 */
+@media only screen and (aspect-ratio: 16/9) {
+    .contentContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    
+    .infoSections {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 100%;
+    }
+    
+    .infoSections .objetivoSection,
+    .infoSections .missaoSection,
+    .infoSections .visaoSection {
+        width: 30%; /* Ajusta as seções para se ajustarem lado a lado */
+        margin: 0 10px;
+        box-sizing: border-box; /* Inclui padding e bordas no width */
+    }
+    
+    .imagemContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%; /* Ajuste conforme necessário */
+        height: auto; /* Ajuste a altura conforme o conteúdo */
+    }
+    
+    /* Ajuste o tamanho do texto e a margem para telas largas */
+    .contentContainer p {
+        font-size: 1.2em;
+        margin-bottom: 10px;
     }
 }
