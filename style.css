@@ -405,6 +405,14 @@ footer {
     filter: blur(0);
 }
 
+ion-icon:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 #3B5B6E;
+    transition: color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
 /*Ajuste layout para todos os tipos de tela*/
 @media (max-width: 768px) {
     .cabecalho {
