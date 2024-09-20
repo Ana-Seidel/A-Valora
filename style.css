@@ -271,6 +271,20 @@ img {
     line-height: 1.5;
 }
 
+.imageFabricacao {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.imageFabricacao img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .containerAssessoria {
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 450;
