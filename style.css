@@ -246,6 +246,31 @@ img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
+.briquetagemText {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 450;
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.briquetagemText h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.briquetagemText p {
+    font-size: 1rem;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
 .containerAssessoria {
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 450;
