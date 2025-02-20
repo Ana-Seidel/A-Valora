@@ -22,6 +22,8 @@
 ⤷ Mapa: Localização da empresa.<br><br>
 ⤷ Rodapé: Direitos autorais.
 
+⤷ Link do site funcionando: https://a-valora.com.br/index.html
+
 
 <div style="text-align:center;">
     <a href="https://www.linkedin.com/in/ana-luiza-seidel-95a2a61b8/">
